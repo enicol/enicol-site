@@ -20,7 +20,7 @@ export default function Home() {
               priority
             />
           </a>
-          <a
+          {/* <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 hover:text-sky-700"
             href="https://linkedin.com/in/enicol"
             target="_blank"
@@ -34,7 +34,7 @@ export default function Home() {
               height={22}
               priority
             />
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="relative flex flex-col place-items-start justify-center align-middle h-full sm:place-items-center">
