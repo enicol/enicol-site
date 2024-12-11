@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center h-screen p-14 bg-soft-white">
+    <main className="flex min-h-screen flex-col items-center h-screen p-14 bg-gradient-to-l from-[#716f81] via-[#b97a95] to-[#f6ae99]">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-[#e0c3a1] via-soft-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none ">
+        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none ">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-rich-blue hover:text-saffron"
             href="https://github.com/enicol"
@@ -20,7 +20,7 @@ export default function Home() {
               priority
             />
           </a>
-          {/* <a
+          <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 hover:text-sky-700"
             href="https://linkedin.com/in/enicol"
             target="_blank"
@@ -34,18 +34,18 @@ export default function Home() {
               height={22}
               priority
             />
-          </a> */}
+          </a>
         </div>
       </div>
       <div className="relative flex flex-col place-items-start justify-center align-middle h-full sm:place-items-center">
-        <h1 className="mb-2 text-4xl font-semibold text-saffron sm:text-6xl">
-          emma <span className="text-tarragon-500">n</span>
-          <span className="text-tarragon-400">i</span>
-          <span className="text-tarragon-300">c</span>
-          <span className="text-tarragon-200">o</span>
-          <span className="text-tarragon-100">l</span>
+        <h1 className="mb-2 text-4xl font-semibold text-soft-white sm:text-6xl">
+          emma <span>n</span>
+          <span>i</span>
+          <span>c</span>
+          <span>o</span>
+          <span>l</span>
         </h1>
-        <h2 className={`mb-3 text-base font-regular text-black-green`}>
+        <h2 className="mb-3 text-xl font-regular self-center text-soft-white">
           software engineer
         </h2>
       </div>

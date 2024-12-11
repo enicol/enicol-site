@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         "black-green": "#3B413C",
         "olive-green": "#b7b898",
+        "brat-green": "#E4F7B1",
         tarragon: {
           100: "#CCCCB7",
           200: "#C4C4AB",
